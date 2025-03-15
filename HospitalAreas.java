@@ -18,7 +18,7 @@ public class HospitalAreas {
         Scanner scanner = new Scanner(System.in);
         
         // Formato para valores monetarios
-        NumberFormat formatoMoneda = NumberFormat.getCurrencyInstance(new Locale("es", "CO"));
+        NumberFormat formatoMoneda = NumberFormat.getCurrencyInstance(Locale.forLanguageTag("es-CO"));
         
         System.out.println("=== SISTEMA DE DISTRIBUCIÓN DE PRESUPUESTO HOSPITALARIO ===");
         

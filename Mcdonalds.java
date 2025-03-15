@@ -18,7 +18,7 @@ public class Mcdonalds {
     
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        NumberFormat formatoPeso = NumberFormat.getCurrencyInstance(new Locale("es", "CO"));
+        NumberFormat formatoPeso = NumberFormat.getCurrencyInstance(Locale.forLanguageTag("es-CO"));
         
         System.out.println("=== SISTEMA DE PLANES DE FIESTA INFANTIL MCDONALD'S ===");
         System.out.println("Bienvenido al planificador de fiestas infantiles de McDonald's");

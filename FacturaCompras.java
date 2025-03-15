@@ -15,7 +15,7 @@ public class FacturaCompras {
         Scanner scanner = new Scanner(System.in);
         
         // Formato para los valores monetarios en pesos colombianos
-        NumberFormat formatoPeso = NumberFormat.getCurrencyInstance(new Locale("es", "CO"));
+        NumberFormat formatoPeso = NumberFormat.getCurrencyInstance(Locale.forLanguageTag("es-CO"));
         
         System.out.println("=== SISTEMA DE FACTURACIÓN TIENDA MI ACA POO ===");
         
